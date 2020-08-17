@@ -1,12 +1,14 @@
 import React from 'react'
 import Styled from 'styled-components'
+import {FaTwitch} from 'react-icons/fa'
+
 
 
 
 export default ()=>{
     return(
     <Nav>
-        <i class="fab fa-twitch"><a href="#"></a></i>
+        <FaTwitch/>
 
         <Ul>
             <Li><Link href="#">Seguindo</Link></Li>
@@ -73,8 +75,8 @@ const Li = Styled.li`
 padding:5px;
 `
 const Button = Styled.button`
-// margin:5px;
-// padding:5px;
+margin:5px;
+padding:5px;
 `
 const Input = Styled.input`
 display:block;
@@ -85,7 +87,9 @@ border-radius:6px 0px 0px 6px;
 border:none;
 `
 const Search = Styled.div`
-justify-content
+heigth:100%;
+width:100%;
+justify-content:center;
 flex-grow:1;
 display:flex;
 align-items:center;
